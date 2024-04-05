@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 
 #IMPORTED DATA
-df = pd.read_csv("C:/Users/Aissa/apps/iteso/project-deathcausesprediction/data/raw/deaths_data.csv")
+df = pd.read_csv("deaths_data.csv")
 
 #APP
 st.title('Exploring Global Mortality: Visualization and Forecasting of Death Causes by Country')
